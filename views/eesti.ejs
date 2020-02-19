@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+    <title>Information</title>
+</head>
+<body>
+
+    
+    <img src=<%- data[0].flag %> alt="flag" class="estflag">
+    <p>Country: <%= data[0].name %></p>
+    <p>Region: <%= data[0].region %></p>
+    <p>Northren Europe Calling Code: <%= data[0].callingCodes[0] %></p>
+    <p>Language: <%= data[0].languages[0].name %></p>
+    <p>Population: <%= data[0].population %></p>
+    <p>Top Level Domain: <%= data[0].topLevelDomain[0] %></p>
+    <p>Alpha3 Code: <%= data[0].alpha3Code %></p>
+    <p>Currency: <%= data[0].currencies[0].symbol %></p> 
+    
+</body>
+</html>

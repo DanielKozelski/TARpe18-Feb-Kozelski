@@ -1,0 +1,15 @@
+.estflag{
+    width: 300px;
+    border: 5px;
+    border-style: solid;
+    border-color:black;
+}
+
+body{
+    text-align: center;
+    margin: 70px;
+    background: url('../img/eopj2hiyutg11.png');
+    font-family: 'Varela Round', sans-serif;
+    color: #ffbd69;
+    font-size: 150%;
+}
